@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  kali-build:
+    build:
+      context: docker
+    volumes:
+    - ./variant-xcfe-custom:/variant-xcfe-custom
