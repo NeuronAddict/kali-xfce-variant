@@ -5,4 +5,4 @@ services:
     build:
       context: docker
     volumes:
-    - ./variant-xcfe-custom:/variant-xcfe-custom
+    - ./variant-xfce-custom:/variant-xfce-custom
