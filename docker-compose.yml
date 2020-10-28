@@ -2,6 +2,7 @@ version: '3'
 
 services:
   kali-build:
+    privileged: true
     build:
       context: docker
     volumes:
