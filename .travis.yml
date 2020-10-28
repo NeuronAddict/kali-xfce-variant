@@ -7,7 +7,8 @@ script:
 
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
+  api_key:
+    secure: qUMDK6G2xHjVsXSofa7ag/3TzxBSO0/WNVIlBzIzeJ1I3xT9OZhCwwyAZ/F7r115eNBW79z52Ogti+r70cmbDRw1J+8kuqh73iQ/ghNb4p5NU9LUhqICFC1sZfFAfFaVWzgv8m18wo5+k2rA2A6ownjx+QnZ3zgqZNh00SeaRw11rv9dm0wazo1RohvKaBeeIbkEWqG9+S5PUlB70DTzwEsU+rZ00KgKRrpuZoo8DUaXqnROGG8BwIflt9OMRh69rKubwBO7/xMLiGpyJTSSCeMIv6nIIjLwoi2sdS+lP6Nl33NiqbHQ+iOwh3tmdmaDI2w5SwRxa2ugiBewCLwRwrNyOdKHTTl5LncmDu0LtLAa+KtdM/m8IiwRZt31QGqT2LQ0/cx3zSrGlZ3XB4dUNty/5yIyTJg3As6vggbCq6UtgvlECLKu/GipQfXjmTurrIKDphQksdepqRrtiyOLX0fxzUyuQgKhOAjI5y5j8vBhp0ZTpZfZHQsVWPAgKnOStczBnBJFX2+jJRvBjQWK0vtgfzJMzRtFPVarctjmAYuEFxUM9jldJFJBgIWdoE5/xufes7LAXGhuwhuzdK/pfd8QTrcM1Hajnp8bO5Li/0FuYv0cCXiatlDm+LwhkvhN3qCFp5iVc1OCx1tAgrIvtc/NqPtQq7L79nEkW8CvIo0=
   file: "output/kali-linux-rolling-live-xfce-custom-amd64.iso"
   skip_cleanup: true
   overwrite: true
