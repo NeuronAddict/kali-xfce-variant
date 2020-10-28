@@ -14,7 +14,7 @@ fi
 cp -r /variant-xfce-custom kali-config/variant-xfce-custom
 
 
-bash -x ./build.sh --variant xfce-custom --verbose
-
-ls -al images
-cp images/*.iso /output
+bash -x ./build.sh --variant xfce-custom --verbose \
+  && ls -al images \
+  && cp images/*.iso /output \
+  || exit 1
