@@ -1,0 +1,15 @@
+services:
+  - docker
+
+
+script:
+  - docker-compose up
+
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "output/kali-linux-rolling-live-xfce-custom-amd64.iso"
+  skip_cleanup: true
+  overwrite: true
+  on:
+    tags: true
