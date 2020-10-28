@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+env
+
 if [[ -d live-build-config ]]
 then
   cd live-build-config || exit 1
