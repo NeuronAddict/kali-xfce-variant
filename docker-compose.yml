@@ -4,6 +4,9 @@ services:
   kali-build:
     build:
       context: docker
+    environment:
+    - DEBIAN_FRONTEND=noninteractive
+    - DEBIAN_FRONTEND=teletype
     volumes:
     - ./variant-xfce-custom:/variant-xfce-custom
     - ./output:/output
