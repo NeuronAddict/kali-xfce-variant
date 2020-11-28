@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling
 
-RUN apt-get update && apt-get install -y live-build curl git cdebootstrap fdisk fakeroot
+RUN apt-get update && apt-get install -y live-build curl git cdebootstrap fdisk fakeroot apt-utils
 
 RUN sed -i '1161s%umount%#umount%' /usr/share/debootstrap/functions
 
