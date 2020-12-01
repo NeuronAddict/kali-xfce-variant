@@ -8,7 +8,7 @@ install:
   - sudo dpkg -i vagrant.deb
 
 script:
-  - vagrant up
+  - sudo vagrant up
 
 deploy:
   provider: releases
