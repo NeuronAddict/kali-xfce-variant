@@ -2,7 +2,7 @@
 install:
   - sudo apt update
   - sudo apt -y install linux-headers-$(uname -r)
-  - sudo apt -y install virtualbox
+  - sudo apt -y install virtualbox virtualbox-guest-dkms
   - VBoxManage -v
   - wget -O vagrant.deb https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.deb
   - sudo dpkg -i vagrant.deb
