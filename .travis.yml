@@ -4,6 +4,8 @@ install:
   - sudo apt -y install bridge-utils dnsmasq-base ebtables libvirt-bin libvirt-dev qemu-kvm qemu-utils ruby-dev
   - wget -O vagrant.deb https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.deb
   - sudo dpkg -i vagrant.deb
+  - sudo vagrant --version
+  - sudo vagrant plugin install vagrant-libvirt
 
 script:
   - sudo vagrant up --provider=libvirt
