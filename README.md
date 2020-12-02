@@ -12,3 +12,4 @@ Iso with kali variant xfce + custom useful packages
 
 https://stackoverflow.com/questions/49049949/how-to-accept-license-agreement-during-docker-build
 
+https://github.com/jonashackt/vagrant-travisci-libvrt
